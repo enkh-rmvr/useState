@@ -1,13 +1,15 @@
-import { Counter } from "./components/Counter";
-import { LightSwitch } from "./components/LightSwitch";
-import { SecretMessage } from "./components/SecretMessage";
+// import { Counter } from "./components/Counter";
+// import { LightSwitch } from "./components/LightSwitch";
+// import { SecretMessage } from "./components/SecretMessage";
+import { ToDo } from "./components/ToDo";
 export default function Home() {
   return (
     <>
       <div className="m-auto flex gap-7">
-        <Counter />
+        {/* <Counter />
         <LightSwitch />
-        <SecretMessage />
+        <SecretMessage /> */}
+        <ToDo />
       </div>
     </>
   );
